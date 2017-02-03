@@ -1,0 +1,17 @@
+This web application utilizes Java Spring Boot framework and RESTful web service.
+The file "bc_source.zip" is the eclipse project archive file which includes all of source code.
+********* Make sure to have Java 1.8.xxx install. To verify, please enter "java -version" in DOS prompt. *********
+
+How to run the theater seating web application:
+
+1.) download the WAR (bcproject-1.0.war) file.
+2.) In DOS prompt, type "java -jar bcproject-1.0.war"
+3.) open browser with URL=http://localhost:8080 and it will bring up the welcome page.
+
+=================================================
+There are two sections on welcome page:
+1.) The top section will be the seat layout. Need to fill in the number of seats for each section.
+2.) The bottom section will be the ticket request for each customer. Need to fill in name and number of requested tickets.
+
+Fill in the above two sections and click on "Submit to process" to get the returned result displayed.
+=================================================
